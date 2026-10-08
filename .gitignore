@@ -1,0 +1,27 @@
+# Windows 11 Pro system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Oracle SQL Developer local logs, history, and exports
+*.log
+*.bak
+*.sql.bk
+*.tmp
+# Database credentials and environments (NEVER commit these!)
+*.env
+*.credentials
+credentials.txt
+Wallet_*/
+cwallet.sso
+ewallet.p12
+
+# Oracle SQL Developer local app data and configuration directories
+.sqldev/
+system*/
+
+# Heavy database data pumps or exports
+*.dmp
+*.exp
