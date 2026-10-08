@@ -20,39 +20,45 @@ This repository contains the practical deliverables for Individual Assignment II
 
 ## Repository Structure
 
-plsql-goto-functions-20251SEN193-Lin Shalom/
-│
-├── README.md
-├── .gitignore
-├── 00_setup/
-│ └── create_tables.sql
-├── 01_goto/
-│ ├── A1_number_classifier.sql
-│ ├── A2_salary_review.sql
-│ ├── A3_illegal_goto.sql
-│ └── A4_rewrite_no_goto.sql
-├── 02_functions/
-│ ├── B1_fn_annual_salary.sql
-│ ├── B2_fn_years_of_service.sql
-│ ├── B3_fn_calculate_tax.sql
-│ ├── B4_fn_dept_name.sql
-│ └── C1_fn_validate_payroll.sql
-├── 03_tests/
-│ ├── B5_functions_in_select.sql
-│ ├── test_functions.sql
-│ └── test_validate_payroll.sql
-├── screenshots/
-│ ├── A1_output.png
-│ ├── A2_output.png
-│ ├── A3_error_and_fix.png
-│ ├── A4_output.png
-│ ├── B5_select_output.png
-│ └── C1_output.png
-└── docs/
-└── REFLECTION.md
+## 📁 Repository Structure
+
+
+## 📁 Repository Structure
+
+* 📦 **[plsql-goto-functions-20251SEN193-Lin Shalom](.)** (Root)
+  * 📄 [README.md](README.md)
+  * ⚙️ [.gitignore](.gitignore)
+  * 📂 **[00_setup/](00_setup/)**
+    * 📜 [create_tables.sql](00_setup/create_tables.sql)
+  * 📂 **[01_goto/](01_goto/)**
+    * 📜 [A1_number_classifier.sql](01_goto/A1_number_classifier.sql)
+    * 📜 [A2_salary_review.sql](01_goto/A2_salary_review.sql)
+    * 📜 [A3_illegal_goto.sql](01_goto/A3_illegal_goto.sql)
+    * 📜 [A4_rewrite_no_goto.sql](01_goto/A4_rewrite_no_goto.sql)
+  * 📂 **[02_functions/](02_functions/)**
+    * 📜 [B1_fn_annual_salary.sql](02_functions/B1_fn_annual_salary.sql)
+    * 📜 [B2_fn_years_of_service.sql](02_functions/B2_fn_years_of_service.sql)
+    * 📜 [B3_fn_calculate_tax.sql](02_functions/B3_fn_calculate_tax.sql)
+    * 📜 [B4_fn_dept_name.sql](02_functions/B4_fn_dept_name.sql)
+    * 📜 [C1_fn_validate_payroll.sql](02_functions/C1_fn_validate_payroll.sql)
+  * 📂 **[03_tests/](03_tests/)**
+    * 📜 [B5_functions_in_select.sql](03_tests/B5_functions_in_select.sql)
+    * 📜 [test_functions.sql](03_tests/test_functions.sql)
+    * 📜 [test_validate_payroll.sql](03_tests/test_validate_payroll.sql)
+  * 📂 **[screenshots/](screenshots/)**
+    * 🖼️ [A1_output.png](screenshots/A1_output.png)
+    * 🖼️ [A2_output.png](screenshots/A2_output.png)
+    * 🖼️ [A3_error_and_fix.png](screenshots/A3_error_and_fix.png)
+    * 🖼️ [A4_output.png](screenshots/A4_output.png)
+    * 🖼️ [B5_select_output.png](screenshots/B5_select_output.png)
+    * 🖼️ [C1_output.png](screenshots/C1_output.png)
+  * 📂 **[docs/](docs/)**
+    * 📝 [REFLECTION.md](docs/REFLECTION.md)
+
+
 
 ## Execution Sequence
-1. Run the database setup script in `00_setup/create_tables.sql` to establish the core schema.
-2. Compile all PL/SQL stored functions located within the `02_functions/` directory.
-3. Execute the control flow evaluation scripts inside `01_goto/`.
-4. Run the functional validation test scripts inside `03_tests/` to verify execution results against expectations.
+1. Run the database setup script in [create_tables.sql](00_setup/create_tables.sql) to establish the core schema.
+2. Compile all PL/SQL stored functions located within the [02_functions/](02_functions/) directory.
+3. Execute the control flow evaluation scripts inside [01_goto/](01_goto/) .
+4. Run the functional validation test scripts inside [03_tests/](03_tests/) to verify execution results against expectations.
